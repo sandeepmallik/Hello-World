@@ -3,6 +3,7 @@ CREATE TABLE homework.ranged_filtered_with_indexes (
     uuid_id uuid,
     boolean_a boolean,
     boolean_b boolean,
+    boolean_c boolean,
     time_stamp timestamp,
     PRIMARY KEY (text_id, uuid_id)
 ) WITH CLUSTERING ORDER BY (uuid_id ASC)
