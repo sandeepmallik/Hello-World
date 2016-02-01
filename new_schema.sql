@@ -1,4 +1,4 @@
-CREATE TABLE homework.ranged_filtered_with_indexes (
+CREATE TABLE sax.ranged_filtered_with_indexes (
     text_id text,
     uuid_id uuid,
     boolean_a boolean,
@@ -20,5 +20,5 @@ CREATE TABLE homework.ranged_filtered_with_indexes (
     AND min_index_interval = 128
     AND read_repair_chance = 0.1
     AND speculative_retry = '99.0PERCENTILE';
-CREATE INDEX bolean_a_active ON homework.ranged_filtered_with_indexes (boolean_a);
-CREATE INDEX bolean_b_active ON homework.ranged_filtered_with_indexes (boolean_b);
+CREATE INDEX bolean_a_active ON sax.ranged_filtered_with_indexes (boolean_a);
+CREATE INDEX bolean_b_active ON sax.ranged_filtered_with_indexes (boolean_b);
