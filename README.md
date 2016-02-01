@@ -1,2 +1,3 @@
 # Hello-World
-Git for Cassandra
+
+My first repository to track schema changes for Cassandra
